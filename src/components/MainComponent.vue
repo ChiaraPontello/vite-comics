@@ -3,12 +3,18 @@
         <h3 class="container">
         Content goes here
         </h3>
+     <IconsNav />   
     </main>
+    
 </template>
 
 <script>
+import IconsNav from './main/IconsNav.vue';
     export default {
         name:'MainComponent',
+        components: {
+            IconsNav
+        }
     }
 </script>
 
@@ -20,4 +26,6 @@
     h3{
         padding:20px;
     }
+
+
 </style>
