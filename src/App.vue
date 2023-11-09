@@ -1,6 +1,6 @@
 <template>
   <HeaderComponent />
- 
+
  <MainComponent />
 
 <FooterApp />
@@ -12,12 +12,14 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import FooterApp from './components/FooterApp.vue'
+
   export default {
     name:'App',
     components: {
       HeaderComponent,
       MainComponent,
-      FooterApp
+      FooterApp,
+      
     },
     data(){
       return{

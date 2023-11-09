@@ -11,5 +11,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+ footer{
+    background-image: url('../assets/images/footer-bg.jpg');
+ }
 </style>
