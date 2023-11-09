@@ -1,12 +1,12 @@
 <template>
-    <footer>
-        footer
-    </footer>
+    <main>
+        main
+    </main>
 </template>
 
 <script>
     export default {
-        name:'FooterApp',
+        name:'MainComponent',
     }
 </script>
 
