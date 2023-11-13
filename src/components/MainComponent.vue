@@ -8,7 +8,7 @@
     <div class="container ">
             <button class="btn mt-3 ">Current series</button>
             <div class="row mt-3">
-                <CardApp v-for="comic, index in comicsCard" :thumb="comic.thumb" :series="comic.series" :key="index" />
+                <CardApp v-for="comic, index in comicsCard" :thumb="comic.thumb" :key="index" />
             </div>
             <div class="d-flex justify-content-center ">
                 <button class="btn mb-3">Load more</button>
@@ -45,6 +45,7 @@ import { cardComics } from './main/dcComic.js'
     .serie{
         background-color: black;
     }
+    
     h3{
         padding:20px;
     }

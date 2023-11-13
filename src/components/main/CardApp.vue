@@ -1,6 +1,6 @@
 <template>
     <div class="col-12 col-md-2 mb-5">
-        <img :src="thumb" :alt="series" class="mb-3">
+        <img :src="thumb" class="mb-3">
         
     </div>
 </template>
